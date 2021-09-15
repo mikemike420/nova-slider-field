@@ -10,6 +10,8 @@
           :class="errorClasses"
           :placeholder="field.name"
           v-model="value"
+          :adsorb="true"
+          :interval="5"
           :min="field.min || 0"
           :max="field.max || 100"
         />
